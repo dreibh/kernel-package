@@ -2,7 +2,7 @@ Source: =ST-source-=V
 Section: devel
 Priority: optional
 Maintainer:  =M
-Build-Depends: po-debconf, gettext, file, bc
+Build-Depends: po-debconf, gettext, file, bc, libssl-dev, openssl
 Standards-Version: 3.5.9.0
 
 Package: =ST-headers-=V

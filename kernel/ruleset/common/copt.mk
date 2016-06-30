@@ -42,3 +42,9 @@ ifeq (,$(findstring nostrip,$(DEB_BUILD_OPTIONS)))
 else
   INT_INSTALL_TARGET = install
 endif
+
+
+# --- TD ---
+CFLAGS += -fno-pie -no-pie
+AFLAGS += -fno-pie
+# ----------
